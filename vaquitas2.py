@@ -6,7 +6,7 @@ import threading
 inicioPuente = 10
 largoPuente = 20
 
-semaphore = threading.Semaphore(1)
+semaphore = threading.Semaphore(2)
 
 class Vaca(threading.Thread):
   def __init__(self):
